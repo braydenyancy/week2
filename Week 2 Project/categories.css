@@ -1,0 +1,24 @@
+main .categories {
+    background:rgb(241, 240, 240);
+    height: 420px;
+}
+.categories {
+    display: flex;
+    flex-direction: column;
+    /* flex: 0 1 256px; */
+    padding: 1rem;
+    float: left;
+}
+.categories a {
+    text-decoration: none;
+    background: seagreen;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 1rem 0.5rem;
+    padding: 1rem;
+}
+.categories a:hover {
+    background: rgb(35, 96, 61);
+    box-shadow: 0 2px 4px -2px black;
+}
